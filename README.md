@@ -1,10 +1,6 @@
-Here’s a professional **README.md** file for your project. It includes installation steps, usage instructions, and a brief overview of what the project does.  
+  
 
----
 
-**📌 README.md – AI-Powered Blog Post Generator with CrewAI & Gemini Flash**  
-
-```md
 # 🚀 AI-Powered Blog Post Generator with CrewAI & Gemini Flash
 
 # 📖 Overview  
