@@ -1,0 +1,27 @@
+[project]
+name = "my_crewai_project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "amraha1", email = "amrahaa7@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "crew>=0.9.2",
+    "crewai>=0.102.0",
+    "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+crewai = "my_crewai_project:main"
+blogpost = "my_crewai_project.flow1:kickoff"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/my_crewai_project"]  # Adjust based on your project structure
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
